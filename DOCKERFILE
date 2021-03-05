@@ -1,2 +1,4 @@
 FROM ubuntu
 copy . /
+EXPOSE 443 443/tcp
+EXPOSE 80 80/tcp
